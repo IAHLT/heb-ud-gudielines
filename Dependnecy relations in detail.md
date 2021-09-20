@@ -1,6 +1,8 @@
+
+
 ---
 layout: entry
-title: Dependnecy relations in detail.html
+title: Dependnecy relations in detail.md
 ---
 
 
@@ -26,9 +28,7 @@ tree
 5	ספר	ספר	NOUN	NOUN	Gender=Masc|Number=Sing	4	compound	_	_
 6	יסודי	יסודי	ADJ	ADJ	Gender=Masc|Number=Sing	4	amod	_	_
 7	ב	ב	ADP	ADP	_	8	case	_	_
-8	אשדוד	אשדוד	PROPN	PROPN	_	4	nmod	_	_
-9	ו	ו	CCONJ	CCONJ	_	10	cc	_	_
-10	סיים	סיים	VERB	VERB	
+8	אשדוד	אשדוד	PROPN	PROPN	_	4	nmod	_	_	
 ~~~
 
 -	Overt copula (same analysis also with forms of היה, ADJ predicates, etc.)
