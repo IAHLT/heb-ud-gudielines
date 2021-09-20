@@ -16,7 +16,7 @@ Prepositions with subsumed articles take both Definite=Def and PronType=Art. Add
 Elliptical promotion
 In keeping with current UD guidelines, functional elements are promoted to the function of their elided parent, such as promoting prepositions without an object to take the role of nmod/obl, as well as subtypes such as nmod:poss, as required. For example in the following של is not labeled as ‘case’:
 
-![](https://lh6.googleusercontent.com/5lFL9gAF-92MWSH23J8nuxblkcSXjzG3sUsbqh0RF3kaMXjBo3xbzmir4723Ay4sEOtBEfT0q4Y8iEnveHz1DdlJucB5XF0li0lHRUrHyDymHYRVWdDjojPLH13KlemnR3M77PkI=s0 =250x250)
+![](https://lh6.googleusercontent.com/5lFL9gAF-92MWSH23J8nuxblkcSXjzG3sUsbqh0RF3kaMXjBo3xbzmir4723Ay4sEOtBEfT0q4Y8iEnveHz1DdlJucB5XF0li0lHRUrHyDymHYRVWdDjojPLH13KlemnR3M77PkI=250x250)
 
 
 Promotion can generally lead to POS tags carrying unusual dependency relations, for example a VERB can be promoted to substitute a missing NOUN that would control it, resulting in VERBs taking relations such as obj. For example in the following analysis:
