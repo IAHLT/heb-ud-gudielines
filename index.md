@@ -13,3 +13,21 @@ These guidelines are meant to supplement and ultimately be merged with the gener
 5. [Dependency relations in detail](Dependnecy%20relations%20in%20detail.html)
 6. [Appendix](Appendix.html)
 
+# Example Annodoc
+
+~~~ ann
+Barack Obama is the current president.
+T1 PERSON 0 12 Barack Obama
+~~~
+
+~~~ sdparse
+Dogs run
+nsubj(run, Dogs)
+~~~
+
+Example provided in order:
+
+~~~ conllx
+1 Dogs dog _ NNS _ 2 nsubj
+2 run run _ VBP _ 0 ROOT
+~~~
