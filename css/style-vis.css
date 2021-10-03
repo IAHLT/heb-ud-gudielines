@@ -46,6 +46,7 @@ svg {
 }
 svg.reselect {
   border: 1px solid #ff3333;
+  direction="rtl";
 }
 div.haserror > svg {
   border: 1px solid red;
@@ -71,7 +72,7 @@ path {
 .span text {
   /*  font-size: 10.5px; */
   
-  direction="rtl";
+  
   font-size: 10px;
   text-anchor: middle;
   font-family: 'PT Sans Caption', sans-serif;
