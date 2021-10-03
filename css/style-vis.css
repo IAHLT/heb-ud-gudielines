@@ -38,7 +38,6 @@
 }
 
 svg {
-  direction="rtl";
   width: 100%;
   height: 1px;
   border: 1px solid #7fa2ff;
@@ -71,6 +70,8 @@ path {
 /* "basic" font */
 .span text {
   /*  font-size: 10.5px; */
+  
+  direction="rtl";
   font-size: 10px;
   text-anchor: middle;
   font-family: 'PT Sans Caption', sans-serif;
