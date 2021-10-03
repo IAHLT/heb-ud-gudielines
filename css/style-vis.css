@@ -19,6 +19,7 @@
 .center_wrapper > div {
   display: table-cell;
   vertical-align: middle;
+  direction="rtl";
 }
 .center_wrapper > div > div {
   /* match jQuery UI .ui-widget-content color */
