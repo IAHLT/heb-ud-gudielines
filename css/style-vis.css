@@ -19,7 +19,6 @@
 .center_wrapper > div {
   display: table-cell;
   vertical-align: middle;
-  direction="rtl";
 }
 .center_wrapper > div > div {
   /* match jQuery UI .ui-widget-content color */
@@ -39,6 +38,7 @@
 }
 
 svg {
+  direction="rtl";
   width: 100%;
   height: 1px;
   border: 1px solid #7fa2ff;
@@ -47,7 +47,7 @@ svg {
 }
 svg.reselect {
   border: 1px solid #ff3333;
-  direction="rtl";
+ 
 }
 div.haserror > svg {
   border: 1px solid red;
