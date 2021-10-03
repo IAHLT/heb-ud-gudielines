@@ -22,7 +22,7 @@ This function label is used for the syntactic subject of a clause, be it a finit
 tree
 
 ~~~ conllu
-<div dir="rtl">
+<svg direction="rtl">
 1	אברה	אברה	PROPN	PROPN	_	2	nsubj	_	_
 2	למד	למד	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	0	root	_	_
 3	ב	ב	ADP	ADP	_	4	case	_	_
@@ -31,7 +31,7 @@ tree
 6	יסודי	יסודי	ADJ	ADJ	Gender=Masc|Number=Sing	4	amod	_	_
 7	ב	ב	ADP	ADP	_	8	case	_	_
 8	אשדוד	אשדוד	PROPN	PROPN	_	4	nmod	_	_	
-</div>
+</svg>
 ~~~
 
 -	Overt copula (same analysis also with forms of היה, ADJ predicates, etc.)
