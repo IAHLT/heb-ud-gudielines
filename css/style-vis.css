@@ -38,7 +38,6 @@
 }
 
 svg {
-  direction="rtl";
   width: 100%;
   height: 1px;
   border: 1px solid #7fa2ff;
@@ -47,7 +46,7 @@ svg {
 }
 svg.reselect {
   border: 1px solid #ff3333;
- 
+ direction="rtl";
 }
 div.haserror > svg {
   border: 1px solid red;
