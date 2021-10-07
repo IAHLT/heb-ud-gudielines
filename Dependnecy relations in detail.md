@@ -22,14 +22,15 @@ This function label is used for the syntactic subject of a clause, be it a finit
 tree
 
 ~~~ conllu
-8	אשדוד	אשדוד	PROPN	PROPN	_	4	nmod	_	_	
-7	ב	ב	ADP	ADP	_	8	case	_	_
-6	יסודי	יסודי	ADJ	ADJ	Gender=Masc|Number=Sing	4	amod	_	_
-5	ספר	ספר	NOUN	NOUN	Gender=Masc|Number=Sing	4	compound	_	_
-4	בית	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	2	obl	_	_
-3	ב	ב	ADP	ADP	_	4	case	_	_
-2	למד	למד	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	0	root	_	_
-1	אברה	אברה	PROPN	PROPN	_	2	nsubj	_	_
+# text = אפשר כבר להכין את הכרטיסים.
+7	.	.	PUNCT	PUNCT	_	3	punct	_	_
+6	כרטיסים	כרטיס	NOUN	NOUN	Gender=Masc|Number=Plur	3	obj	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+5-6	הכרטיסים	_	_	_	_	_	_	_	SpaceAfter=No
+4	את	את	ADP	ADP	Case=Acc	6	case	_	_
+3	להכין	הכין	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	1	csubj	_	_
+2	כבר	כבר	ADV	ADV	_	1	advmod	_	_
+1	אפשר	אפשר	VERB	VERB	VerbType=Mod	0	root	_	_
 ~~~
 
 -	Overt copula (same analysis also with forms of היה, ADJ predicates, etc.)
