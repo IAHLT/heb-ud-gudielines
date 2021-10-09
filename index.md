@@ -35,7 +35,7 @@ Example provided in order:
 
 
 
-<svg version="1.1" class="" style="width: 550px; height: 69px; float: right;">
+<svg version="1.1" class="" style="width: 800px; height: 69px; float: right;">
   
 ~~~ conllu 
 1	.	.	PUNCT	PUNCT	_	0	punct	_	_
