@@ -34,8 +34,8 @@ Example provided in order:
 ~~~
 
 
-
-~~~ conllu <svg version="1.1" class="" style="width: 550px; height: 69px; float: right;">
+<svg version="1.1" class="" style="width: 550px; height: 69px; float: right;">
+~~~ conllu 
 1	.	.	PUNCT	PUNCT	_	0	punct	_	_
 2	”	”	PUNCT	PUNCT	Gender=Masc|Number=Sing	0	punct	_	_
 3	של	של	ADP	ADP	Case=Gen	0	nmod:poss	_	_
