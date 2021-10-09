@@ -33,6 +33,7 @@ Example provided in order:
 2 run run _ VBP _ 0 ROOT
 ~~~
 
+<div>
 <svg version="1.1" class="" style="width: 550px; height: 69px; float: right;">
 ~~~ conllu
 1	.	.	PUNCT	PUNCT	_	0	punct	_	_
@@ -46,4 +47,4 @@ Example provided in order:
 9	טימות’י	טימות’י	PROPN	PROPN	_	0	conj	_	_
 
 ~~~
-</svg>
+</div>
