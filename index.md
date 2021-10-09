@@ -35,13 +35,14 @@ Example provided in order:
 
 ~~~ conllu
 # text = "טימות'י שאלמה בתור "הבן של"
-8	“	“	PUNCT	PUNCT	Definite=Cons|Gender=Masc|Number=Sing	_	punct	_	SpaceAfter=No
-7	של	של	ADP	ADP	Case=Gen	6	nmod:poss	_	_
-6	בן	בן	NOUN	NOUN	Gender=Masc|Number=Sing	1	orphan	_	_
-5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
-4	“	“	PUNCT	PUNCT	Definite=Cons|Gender=Masc|Number=Sing	_	punct	_	SpaceAfter=No
-3	בתור	בתור	ADP	ADP	_	_	case	_	_
-2	שאלמה	שאלמה	PROPN	PROPN	_	_	flat	_	_
-1	טימות’י	טימות’י	PROPN	PROPN	_	6	nmod	_	_
+21	טימות’י	טימות’י	PROPN	PROPN	_	6	conj	_	_
+22	שאלמה	שאלמה	PROPN	PROPN	_	21	flat	_	_
+23	בתור	בתור	ADP	ADP	_	26	case	_	_
+24	“	“	PUNCT	PUNCT	Definite=Cons|Gender=Masc|Number=Sing	26	punct	_	_
+25	ה	ה	DET	DET	Definite=Def|PronType=Art	26	det	_	_
+26	בן	בן	NOUN	NOUN	Gender=Masc|Number=Sing	21	orphan	_	_
+27	של	של	ADP	ADP	Case=Gen	26	nmod:poss	_	_
+28	”	”	PUNCT	PUNCT	Gender=Masc|Number=Sing	26	punct	_	_
+29	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
 ~~~
