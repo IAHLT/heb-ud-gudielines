@@ -38,3 +38,4 @@ Example provided in order:
 nmod:poss(של, בן)
 nmod(טימות'י, בן)
 ~~~ 
+
