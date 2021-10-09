@@ -25,3 +25,14 @@ Promotion can generally lead to POS tags carrying unusual dependency relations, 
 
 
 The missing word מה should be the object of לתאר (as in לתאר את מה שמתרחש). Because UD prioritizes preserving the argument structure of the matrix clause (and more generally, of whichever structure is ‘higher’ in the tree), the VERB מתרחש stands in for the obj function from the argument structure of לתאר, and will also be the promoted head dominating the case relation for את, but it will still be tagged VERB. For more discussion of this example, see Free relatives below.
+
+~~~ conllu
+7	של	של	ADP	ADP	Case=Gen	6	nmod:poss	_	_
+6	בן	בן	NOUN	NOUN	Gender=Masc|Number=Sing	1	orphan	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+4	“	“	PUNCT	PUNCT	Definite=Cons|Gender=Masc|Number=Sing	26	punct	_	_
+3	בתור	בתור	ADP	ADP	_	_	case	_	_
+2	שאלמה	שאלמה	PROPN	PROPN	_	_	flat	_	_
+1	טימות’י	טימות’י	PROPN	PROPN	_	6	nmod	_	_
+
+~~~
