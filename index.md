@@ -34,8 +34,8 @@ Example provided in order:
 ~~~
 
 ~~~ conllux
-text = "טמות'י שאלמה בתור "הבן של"
-8 “	“	PUNCT	PUNCT	Definite=Cons|Gender=Masc|Number=Sing	_	punct	_	SpaceAfter=No
+# text = "טימות'י שאלמה בתור "הבן של"
+8	“	“	PUNCT	PUNCT	Definite=Cons|Gender=Masc|Number=Sing	_	punct	_	SpaceAfter=No
 7	של	של	ADP	ADP	Case=Gen	6	nmod:poss	_	_
 6	בן	בן	NOUN	NOUN	Gender=Masc|Number=Sing	1	orphan	_	_
 5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
