@@ -35,6 +35,6 @@ Example provided in order:
 
 
 ~~~ conllx
-2    רצים    רץ    _    VBP    _    0    ROOT
-1    ילדים   ילד    _    NNS    _    2    nsubj
+1    רצים    רץ    _    VBP    _    0    ROOT
+2    ילדים   ילד    _    NNS    _    2    nsubj
 ~~~
