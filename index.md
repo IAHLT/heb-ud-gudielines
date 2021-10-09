@@ -33,14 +33,8 @@ Example provided in order:
 2 run run _ VBP _ 0 ROOT
 ~~~
 
-~~~ conllu
-# text = "טימות'י שאלמה בתור "הבן של"
-8	“	“	PUNCT	PUNCT	Definite=Cons|Gender=Masc|Number=Sing	_	punct	_	SpaceAfter=No
-7	של	של	ADP	ADP	Case=Gen	6	nmod:poss	_	_
-6	בן	בן	NOUN	NOUN	Gender=Masc|Number=Sing	1	orphan	_	_
-5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
-4	“	“	PUNCT	PUNCT	Definite=Cons|Gender=Masc|Number=Sing	_	punct	_	SpaceAfter=No
-3	בתור	בתור	ADP	ADP	_	_	case	_	_
-2	שאלמה	שאלמה	PROPN	PROPN	_	_	flat	_	_
-1	טימות’י	טימות’י	PROPN	PROPN	_	6	nmod	_	_
+~~~ sdparse
+"טימות'י שאלמה בתור "הבן של
+nmod:poss(של, בן)
+nmod(טימות'י, בן)
 ~~~ 
