@@ -33,7 +33,7 @@ Example provided in order:
 2 run run _ VBP _ 0 ROOT
 ~~~
 
-~~~ conllux
+~~~ conllu
 # text = "טימות'י שאלמה בתור "הבן של"
 8	“	“	PUNCT	PUNCT	Definite=Cons|Gender=Masc|Number=Sing	_	punct	_	SpaceAfter=No
 7	של	של	ADP	ADP	Case=Gen	6	nmod:poss	_	_
