@@ -33,9 +33,10 @@ Example provided in order:
 2 run run _ VBP _ 0 ROOT
 ~~~
 
-<div>
-<svg version="1.1" class="" style="width: 550px; height: 69px; float: right;">
+
+
 ~~~ conllu
+<svg version="1.1" class="" style="width: 550px; height: 69px; float: right;">
 1	.	.	PUNCT	PUNCT	_	0	punct	_	_
 2	”	”	PUNCT	PUNCT	Gender=Masc|Number=Sing	0	punct	_	_
 3	של	של	ADP	ADP	Case=Gen	0	nmod:poss	_	_
@@ -46,5 +47,5 @@ Example provided in order:
 8	שאלמה	שאלמה	PROPN	PROPN	_	0	flat	_	_
 9	טימות’י	טימות’י	PROPN	PROPN	_	0	conj	_	_
 
+</svg>
 ~~~
-</div>
