@@ -35,15 +35,14 @@ Example provided in order:
 
 
 ~~~ conllu
-"של הבן" בתור שאלמה טימות'י.
-1	טימות’י	טימות’י	PROPN	PROPN	_	6	conj	_	_
-2	שאלמה	שאלמה	PROPN	PROPN	_	_	flat	_	_
-3	בתור	בתור	ADP	ADP	_	_	case	_	_
-4	“	“	PUNCT	PUNCT	Definite=Cons|Gender=Masc|Number=Sing	_	punct	_	_
-5	ה	ה	DET	DET	Definite=Def|PronType=Art	_	det	_	_
-6	בן	בן	NOUN	NOUN	Gender=Masc|Number=Sing	_	orphan	_	_
-7	של	של	ADP	ADP	Case=Gen	_	nmod:poss	_	_
-8	”	”	PUNCT	PUNCT	Gender=Masc|Number=Sing	_	punct	_	_
 9	.	.	PUNCT	PUNCT	_	_	punct	_	_
+8	”	”	PUNCT	PUNCT	Gender=Masc|Number=Sing	_	punct	_	_
+7	של	של	ADP	ADP	Case=Gen	_	nmod:poss	_	_
+6	בן	בן	NOUN	NOUN	Gender=Masc|Number=Sing	_	orphan	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	_	det	_	_
+4	“	“	PUNCT	PUNCT	Definite=Cons|Gender=Masc|Number=Sing	_	punct	_	_
+3	בתור	בתור	ADP	ADP	_	_	case	_	_
+2	שאלמה	שאלמה	PROPN	PROPN	_	_	flat	_	_
+1	טימות’י	טימות’י	PROPN	PROPN	_	6	conj	_	_
 
 ~~~
