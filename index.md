@@ -33,16 +33,16 @@ Example provided in order:
 2 run run _ VBP _ 0 ROOT
 ~~~
 
-
 ~~~ conllu
-9	.	.	PUNCT	PUNCT	_	_	punct	_	_
-8	”	”	PUNCT	PUNCT	Gender=Masc|Number=Sing	_	punct	_	_
-7	של	של	ADP	ADP	Case=Gen	_	nmod:poss	_	_
-6	בן	בן	NOUN	NOUN	Gender=Masc|Number=Sing	_	orphan	_	_
-5	ה	ה	DET	DET	Definite=Def|PronType=Art	_	det	_	_
-4	“	“	PUNCT	PUNCT	Definite=Cons|Gender=Masc|Number=Sing	_	punct	_	_
-3	בתור	בתור	ADP	ADP	_	_	case	_	_
-2	שאלמה	שאלמה	PROPN	PROPN	_	_	flat	_	_
-1	טימות’י	טימות’י	PROPN	PROPN	_	6	conj	_	_
+<svg version="1.1" class="" style="width: 550px; height: 69px; float: right;">
+1	.	.	PUNCT	PUNCT	_	0	punct	_	_
+2	”	”	PUNCT	PUNCT	Gender=Masc|Number=Sing	0	punct	_	_
+3	של	של	ADP	ADP	Case=Gen	0	nmod:poss	_	_
+4	בן	בן	NOUN	NOUN	Gender=Masc|Number=Sing	9	nmod	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	0	det	_	_
+6	“	“	PUNCT	PUNCT	Definite=Cons|Gender=Masc|Number=Sing	0	punct	_	_
+7	בתור	בתור	ADP	ADP	_	0	case	_	_
+8	שאלמה	שאלמה	PROPN	PROPN	_	0	flat	_	_
+9	טימות’י	טימות’י	PROPN	PROPN	_	0	conj	_	_
 
 ~~~
